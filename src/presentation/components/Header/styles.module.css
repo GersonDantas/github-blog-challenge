@@ -1,0 +1,22 @@
+.headerContainer {
+  background: #0B1B2B;
+  height: 18.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 4rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.effectLeft {
+  position: absolute;
+  left: 0;
+  top: 4.5rem;
+}
+
+.effectRight {
+  position: absolute;
+  right: 0;
+  top: 4.5rem;
+}

@@ -1,0 +1,46 @@
+.postHeader {
+  margin-top: -5.5rem;
+  background: #0B1B2B;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.postHeader header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+.postHeader a {
+  color: #3294F8;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.backButton {
+  color: #3294F8;
+}
+
+.postHeader h1 {
+  color: #E7EDF4;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.postHeader ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  color: #7B96B2;
+}
+
+.postHeader li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

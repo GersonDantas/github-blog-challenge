@@ -1,0 +1,26 @@
+.content {
+  padding: 2.5rem 2rem;
+  line-height: 1.6;
+}
+
+.content h1,
+.content h2,
+.content h3 {
+  color: #E7EDF4;
+  margin: 1.5rem 0 1rem;
+}
+
+.content p {
+  margin-bottom: 1rem;
+}
+
+.content pre {
+  background: #112131;
+  padding: 1rem;
+  border-radius: 2px;
+  margin: 1rem 0;
+}
+
+.content code {
+  font-family: monospace;
+}

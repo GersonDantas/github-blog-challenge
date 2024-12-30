@@ -1,0 +1,31 @@
+.profileContainer {
+  padding: 2rem;
+  background: #0B1B2B;
+  border-radius: 10px;
+  display: flex;
+  gap: 2rem;
+}
+
+.profileImage {
+  width: 148px;
+  height: 148px;
+  border-radius: 8px;
+}
+
+.profileInfo {
+  flex: 1;
+}
+
+.profileStats {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.profileStats a,
+.profileStats span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #C4D4E3;
+}

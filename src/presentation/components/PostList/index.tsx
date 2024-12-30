@@ -9,7 +9,11 @@ interface PostListProps {
   posts: Post[]
 }
 
-export function PostList({ posts }: PostListProps) {
+export function PostList({ posts = [] }: PostListProps) {
+  if (!Array.isArray(posts)) {
+    return null // or return some loading/error state
+  }
+
   return (
     <div>
       {posts.map(post => (
